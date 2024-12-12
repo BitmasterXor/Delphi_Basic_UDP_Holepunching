@@ -23,9 +23,8 @@ This repository showcases a Delphi-based **UDP Hole Punching Tool** utilizing In
 
 ## 🔌 Usage
 1. **Server Setup**: Launch the server to listen for incoming connections on the configured port.
-2. **Client Connection**: Enter the server’s IP address and port, then start the connection from the client.
+2. **Client Connection**: Enter the server’s IP address, then start the connection.
 3. **UDP Hole Punching**: The server helps establish a peer-to-peer connection between two clients, even if they are behind NAT.
-4. **Disconnect**: Close the client application to disconnect from the server.
 
 ## 🤝 Contributing
 Fork, modify, and submit a pull request with improvements or fixes!
@@ -34,6 +33,6 @@ Fork, modify, and submit a pull request with improvements or fixes!
 This project is open-source under the MIT License.
 
 ## 📧 Contact
-For feedback or questions, open an issue or email directly.
+For feedback or questions, open an issue or contact me directly "Discord: bitmasterxor"
 
-<p align="center">Built with ❤️ By BitmasterXor using Delphi and Indy Components</p>
+<p align="center">Built with ❤️ By BitmasterXor using Delphi / Embarcadero Rad Studio</p>
