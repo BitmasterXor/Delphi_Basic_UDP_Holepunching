@@ -1,42 +1,39 @@
 # 📡 UDP Hole Punching Tool
 
-This repository showcases a **Delphi-based UDP Hole Punching Tool** using Indy components. The tool combines both server and client functionalities in one application, allowing you to configure the role (Server or Client) and perform UDP-based communication between two PCs.
+This repository showcases a Delphi-based **UDP Hole Punching Tool** utilizing Indy components. It enables UDP-based communication between two PCs, allowing them to establish a direct connection behind NAT (Network Address Translation) using the hole punching technique.
 
 ![Preview](Preview.png)
 
 ## 📋 Project Overview
-- **Unified Application**: A single Delphi application where you can switch between server and client roles for UDP communication.
-- **Server Mode**: Listens for incoming UDP packets and manages communication with the client.
-- **Client Mode**: Sends messages to the server and receives responses, supporting both broadcast and private messages.
+- **Single Application**: A Delphi application that acts both as a server and a client for UDP hole punching.
+- **Server Functionality**: Listens for incoming UDP packets and helps establish the connection between two clients.
+- **Client Functionality**: Sends messages to the server, receives responses, and establishes a peer-to-peer connection through UDP hole punching.
 
 ## ✨ Features
-- **Role Selection**: Choose between "Your PC" or "Another PC" to configure the appropriate UDP ports.
-- **UDP Communication**: Enables real-time messaging between client and server.
-- **Real-time Logging**: Display messages exchanged between client and server in the log interface.
-- **Dynamic Ports**: Automatically adjusts the ports based on the selected role.
+- **Role Selection**: Choose between "Your PC" or "Another PC" to configure the correct ports for UDP communication.
+- **UDP Hole Punching**: Facilitates NAT traversal and establishes communication between two PCs.
+- **Real-time Logging**: Logs UDP messages exchanged during the connection setup.
+- **Dynamic Port Configuration**: Server and client ports adjust based on the selected role.
 
 ## ⚙️ Installation
 1. **Requirements**: Delphi IDE and Indy components.
-2. **Clone & Open Project**: Clone the repository and open the `.dpr` files in Delphi.
-3. **Compile**: Build the application which includes both server and client functionality.
-4. **Run**: Start the application and switch between server and client roles.
+2. **Clone & Open Project**: Clone this repository and open the `.dpr` file in Delphi.
+3. **Compile**: Build the project to generate the executable.
+4. **Run**: Start the server, then connect using the client application.
 
 ## 🔌 Usage
-1. **Role Selection**: Select "Your PC" or "Another PC" to configure the correct ports for server and client.
-2. **Start Server**: Launch the server to listen for incoming connections on the configured port.
-3. **Client Connection**: Enter the server's IP address, select your role, and connect to the server.
-4. **Messaging**: 
-    - **Broadcast**: Send messages from the client to all connected clients.
-    - **Private Messaging**: Send messages to a specific client by selecting them from the list.
-5. **Disconnection**: Disconnect by closing the application.
+1. **Server Setup**: Launch the server to listen for incoming connections on the configured port.
+2. **Client Connection**: Enter the server’s IP address and port, then start the connection from the client.
+3. **UDP Hole Punching**: The server helps establish a peer-to-peer connection between two clients, even if they are behind NAT.
+4. **Disconnect**: Close the client application to disconnect from the server.
 
 ## 🤝 Contributing
-Fork the repository, make improvements, and submit a pull request for review.
+Fork, modify, and submit a pull request with improvements or fixes!
 
 ## 📜 License
-This project is open-source and distributed under the MIT License.
+This project is open-source under the MIT License.
 
 ## 📧 Contact
-For any questions or feedback, open an issue or email us directly.
+For feedback or questions, open an issue or email directly.
 
 <p align="center">Built with ❤️ By BitmasterXor using Delphi and Indy Components</p>
