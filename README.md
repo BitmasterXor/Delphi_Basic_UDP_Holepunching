@@ -38,4 +38,4 @@ This project is open-source under the MIT License.
 ## 📧 Contact
 For feedback or questions, open an issue or contact me directly "Discord: bitmasterxor"
 
-<p align="center">Built with ❤️ By BitmasterXor using Delphi / Embarcadero Rad Studio</p>
+<p align="center">Built with ❤️ By BitmasterXor using Delphi / Embarcadero Rad Studio.</p>
