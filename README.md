@@ -2,7 +2,10 @@
 
 This repository showcases a Delphi-based **UDP Hole Punching Tool** utilizing Indy components. It enables UDP-based communication between two PCs, allowing them to establish a direct connection behind NAT (Network Address Translation) using the hole punching technique.
 
-<center>![Preview](Preview.png)</center>
+<p align="center">
+  <img src="Preview.png" alt="Preview">
+</p>
+
 
 ## 📋 Project Overview
 - **Single Application**: A Delphi application that acts both as a server and a client for UDP hole punching.
