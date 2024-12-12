@@ -1,6 +1,7 @@
 # 📡 UDP Hole Punching Tool
 
 This repository showcases a Delphi-based **UDP Hole Punching Tool** utilizing Indy components. It enables UDP-based communication between two PCs, allowing them to establish a direct connection behind NAT (Network Address Translation) using the hole punching technique.
+Does NOT Require or use a rendezvous server! both peers are expected to know their respective ports 8888 or 7777 as per the example code.
 
 <p align="center">
   <img src="Preview.png" alt="Preview">
