@@ -19,7 +19,7 @@ This repository showcases a Delphi-based **UDP Hole Punching Tool** utilizing In
 1. **Requirements**: Delphi IDE and Indy components.
 2. **Clone & Open Project**: Clone this repository and open the `.dpr` file in Delphi.
 3. **Compile**: Build the project to generate the executable.
-4. **Run**: Start the server, then connect using the client application.
+4. **Run**: Start the server, the client is auto configured to work for you!
 
 ## 🔌 Usage
 1. **Server Setup**: Launch the server to listen for incoming connections on the configured port.
